@@ -60,7 +60,6 @@ The codebase is optimized for execution on GPU hardware (e.g., NVIDIA T4 via Goo
 
 If you have any questions or suggestions regarding the implementation or the numerical results of this study, feel free to reach out to me.
 
-If you have any questions or suggestions regarding the implementation or the numerical results of this study, feel free to reach out.
 - Author: Mehmet Ehliz
 - LinkedIn: https://www.linkedin.com/in/ehliz/
 - Email: imi.ehliz@gmail.com
