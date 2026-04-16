@@ -33,7 +33,7 @@ The repository is structured as a progressive scientific experiment, evolving fr
 * **`2_medium_condition_deep_sets.ipynb`**: Advances the Deep Sets model by applying *late fusion* (jet-level conditioning). This optimizes memory efficiency by appending conditions only to the globally aggregated "Jet Summary" representation.
 * **`3_medium_condition_GNN.ipynb`**: Introduces Graph Neural Networks. Replaces isolated particle processing with local message passing to capture geometric relationships. Utilizes Dropout regularization to prevent model grokking and force the learning of generalized geometric rules over noise memorization.
 * **`4_top_quark_tagging_MC_GNN.ipynb`**: Transitions to the official Monte Carlo Top Tagging Reference Dataset. Implements a ParticleNet-Lite dynamic GNN architecture utilizing EdgeConv operations to successfully recover the 3-prong topology of top quark decays.
-* **`5_MC_deep_set.ipynb`**: Acts as the scientific control experiment. Restricts the architecture on the real Monte Carlo data to $k=0$ (Deep Sets), mathematically blinding the AI to local geometry.
+* **`5_MC_deep_set.ipynb`**: Acts as the scientific control experiment. Mathematically blinds the AI to local geometry.
 
 
 ## Methodology
